@@ -24,7 +24,7 @@ Route::get('/home', function () {
 
 Route::get('/about', function () {
     return view('about');
-})->middleware('check');
+});
 
 /* Route::get('/contact', function () {
 return view('contact');
